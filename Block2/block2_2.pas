@@ -1,22 +1,14 @@
-﻿var a, b, c: integer;
+﻿var x, y: integer;
 
 begin
-  write('Введите A: ');
-  readln(a);
-  write('Введите B: ');
-  readln(b);
-  write('Введите C: ');
-  readln(c);
-  if (a > 0) and (b < 0) and (c < 0) then begin
-    writeln('Проверка пройдена!');
-  end
-  else if (a < 0) and (b > 0) and (c < 0) then begin
-    writeln('Проверка пройдена!');
-  end
-  else if (a < 0) and (b < 0) and (c > 0) then begin
-    writeln('Проверка пройдена!');
+  writeln('Введите X');
+  readln(x);
+  writeln('Введите Y');
+  readln(y);
+  if (x < 0) and (y > 0) then begin
+    writeln('Точка лежит во второй четверти.');
   end
   else begin
-    writeln('Проверка не пройдена...')
+    writeln('Точка не лежит во второй четверти.');
   end;
 end.
