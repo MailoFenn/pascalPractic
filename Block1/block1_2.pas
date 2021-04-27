@@ -1,4 +1,9 @@
-﻿var a, b: integer;
+﻿function Factorial(n:integer):integer;
+	begin
+		result := 0;
+		return result;
+	end;
+var a, b: integer;
 var x: real;
 
 begin
@@ -15,5 +20,5 @@ begin
   else begin
     x := (b - 45) / a;
   end;
-  writeln('x = ', x);
+  writeln('x = ', Factorial(6));
 end.
