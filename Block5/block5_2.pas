@@ -4,7 +4,7 @@ begin
 writeln('Введите слово:');
 readln(s1);
 s2 := s1;
-k := 0;
+k := 1;
 l := length(s1);
 while pos(' ',s2) = 1 do delete(s2,1,1);
 for i := 1 to l do

@@ -2,9 +2,9 @@
 var x: real;
 
 begin
-  writeln('Введите A:');
+  writeln('Print A:');
   readln(a);
-  writeln('Введите B:');
+  writeln('Print B');
   readln(b);
   if a > b then begin
     x := a / b + 1;
