@@ -4,11 +4,11 @@ begin
 writeln('Введите слово:');
 readln(s1);
 s2 := s1;
-k := 1;
+k := 2;
 l := length(s1);
 while pos(' ',s2) = 1 do delete(s2,1,1);
 for i := 1 to l do
-    if i = k+1 then
+    if i = k then
     begin
     delete(s2,i,1);
     k := k+1;
